@@ -41,8 +41,14 @@ header {
 
 .hero {
     display: flex;
-    flex-direction: column;
     padding: 10px;
+    justify-content: space-around;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 h1 {
@@ -55,6 +61,7 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px 30px;
+    width: 130px
 }
 
 img {
