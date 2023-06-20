@@ -2,11 +2,36 @@
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/*header, footer, .hero {
+header, footer, .hero {
     background-color: #1f2937;
     color: #f9faf8;
 }
 
 h3 {
     font-size: 24px;
-} */
+}
+
+footer {
+
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 8px 24px;
+}
