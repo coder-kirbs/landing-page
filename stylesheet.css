@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .header, .footer, .hero {
@@ -66,7 +67,15 @@ button {
     color: #f9faf8;
     padding: 10px 30px;
     width: 130px;
-    border: 1px solid #e5e7eb
+    border-radius: 8px;
+}
+
+.button1 {
+    border: none
+}
+
+.button2 {
+    border: 1px solid #e5e7eb;
 }
 
 img {
@@ -75,6 +84,7 @@ img {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
     margin: 30px;
@@ -120,6 +130,7 @@ h2 {
     color:#e5e7eb;
     background-color: #3882f6;
     margin: 40px 200px;
+    border-radius: 8px;
 }
 
 .call-text {
@@ -135,4 +146,8 @@ h4 {
 
 .footer, .call, .quote, .middle, .hero, .header {
     display: flex;
+}
+
+.middle {
+    flex: 1;
 }
