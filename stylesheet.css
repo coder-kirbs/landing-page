@@ -148,6 +148,8 @@ h4 {
     display: flex;
 }
 
-.middle {
+.hero, .middle, .quote {
     flex: 1;
+    align-items: center;
+
 }
