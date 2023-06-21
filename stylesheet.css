@@ -7,7 +7,7 @@ body {
     flex-direction: column;
 }
 
-header, footer, .hero {
+.header, .footer, .hero {
     display: flex;
     background-color: #1f2937;
     color: #f9faf8;
@@ -17,7 +17,7 @@ h3 {
     font-size: 24px;
 }
 
-footer {
+.footer {
     justify-content: center;
     padding: 20px 0px;
 }
@@ -37,7 +37,7 @@ a {
     color: #f9faf8;
 }
 
-header {
+.header {
     justify-content: space-between;
     align-items: baseline;
     padding: 0px 200px;
@@ -45,7 +45,7 @@ header {
 
 .hero {
     display: flex;
-    padding: 0px 200px;
+    padding: 100px 200px;
     justify-content: space-between;
 }
 
@@ -66,6 +66,7 @@ button {
     color: #f9faf8;
     padding: 10px 30px;
     width: 130px;
+    border: 1px solid #e5e7eb
 }
 
 img {
@@ -115,10 +116,10 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    gap: 300px;
+    gap: 400px;
     color:#e5e7eb;
     background-color: #3882f6;
-    margin: 40px 400px;
+    margin: 40px 200px;
 }
 
 .call-text {
@@ -130,4 +131,8 @@ h2 {
 h4 {
     margin: 0;
     font-size: 18px;
+}
+
+.footer, .call, .quote, .middle, .hero, .header {
+    display: flex;
 }
