@@ -2,14 +2,17 @@
     font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body {
+.footer, .call, .quote, .middle, .hero, .hero-text .header, body, 
+.links, .container, .images, .quote, .middle, .call, .call-text {
     display: flex;
+}
+
+body {
     flex-direction: column;
     height: 100vh;
 }
 
 .header, .footer, .hero {
-    display: flex;
     background-color: #1f2937;
     color: #f9faf8;
 }
@@ -24,7 +27,6 @@ h3 {
 }
 
 .links {
-    display: flex;
     flex-direction: row;
     list-style: none;
     gap: 30px;
@@ -45,14 +47,12 @@ a {
 }
 
 .hero {
-    display: flex;
     padding: 50px 150px 100px;
     justify-content: space-between;
     gap: 50px;
 }
 
 .hero-text {
-    display: flex;
     flex-direction: column;
     gap: 20px;
 }
@@ -75,12 +75,15 @@ button {
     border: none;
 }
 
+img {
+    border-radius: 30px;
+}
+
 .button2 {
     border: 1px solid #e5e7eb;
 }
 
 .container {
-    display: flex;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
@@ -88,13 +91,12 @@ button {
 }
 
 .images {
-    display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .quote {
-    display: flex;
     justify-content: center;
     background-color: #e5e7eb;
     color: #1f2937;
@@ -105,7 +107,6 @@ button {
 }
 
 .middle {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -119,19 +120,17 @@ h2 {
 }
 
 .call {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 30px;
-    gap: 400px;
+    gap: 50px;
     color:#e5e7eb;
     background-color: #3882f6;
-    margin: 40px 200px;
+    margin: 40px 300px;
     border-radius: 8px;
 }
 
 .call-text {
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -139,10 +138,6 @@ h2 {
 h4 {
     margin: 0;
     font-size: 18px;
-}
-
-.footer, .call, .quote, .middle, .hero, .header {
-    display: flex;
 }
 
 .hero, .middle, .quote {
