@@ -41,19 +41,20 @@ a {
 .header {
     justify-content: space-between;
     align-items: baseline;
-    padding: 0px 200px;
+    padding: 50px 150px;
 }
 
 .hero {
     display: flex;
-    padding: 100px 200px;
+    padding: 50px 150px 100px;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 h1 {
@@ -66,20 +67,16 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 10px 30px;
-    width: 130px;
     border-radius: 8px;
+    width: fit-content;
 }
 
 .button1 {
-    border: none
+    border: none;
 }
 
 .button2 {
     border: 1px solid #e5e7eb;
-}
-
-img {
-    max-width: 200px;
 }
 
 .container {
@@ -117,7 +114,7 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    margin: 30px;
+    margin: 50px 50px 0px;
     padding: 0;
 }
 
@@ -151,5 +148,4 @@ h4 {
 .hero, .middle, .quote {
     flex: 1;
     align-items: center;
-
 }
